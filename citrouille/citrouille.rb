@@ -1,15 +1,15 @@
 require './all'
 
-boucle-infini do
-  if distance-capteur-de-distance < 120 
+boucle_infini do
+  if distance_capteur_de_distance < 120 
     
-    jouer-musique('hallowen.mp3')
-    actionner-le-moteur
+    jouer_musique('hallowen.mp3')
+    actionner_le_moteur
 
     boucle(100) do
-      allumer-les-leds-en 'orange'
+      allumer_les_leds_en 'orange'
       pause 0.05
-      eteindre-les-leds
+      eteindre_les_leds
       pause 0.05
     end
 

@@ -7,19 +7,19 @@ def afficher(message)
   puts message
 end
 
-def distance-capteur-de-distance
+def distance_capteur_de_distance
   Ultrasonic.distance
 end
 
-def actioner-le-moteur
+def actioner_le_moteur
   Motor.start
 end
 
-def jouer-musique(nom)
+def jouer_musique(nom)
   Music.play(nom)
 end
 
-def allumer-les-leds-en(couleur)
+def allumer_les_leds_en(couleur)
   case couleur
     when 'blue'
       Led.blue
@@ -40,7 +40,7 @@ def allumer-les-leds-en(couleur)
   end
 end
 
-def eteindre-les-leds
+def eteindre_les_leds
    Led.clear
 end
 
@@ -48,7 +48,7 @@ def pause(temps)
    sleep temps
 end
 
-def boucle-infini
+def boucle_infini
   loop do
     yield
   end
