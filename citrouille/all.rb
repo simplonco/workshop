@@ -1,7 +1,7 @@
-require './music'
-require './led'
-require './motor'
-require './ultrasonic'
+require './lib/music'
+require './lib/led'
+require './lib/motor'
+require './lib/ultrasonic'
 
 def afficher(message)
   puts message
@@ -21,7 +21,7 @@ end
 
 def allumer_les_leds_en(couleur)
   case couleur
-    when 'blue'
+    when 'bleu'
       Led.blue
     when 'orange'
       Led.orange

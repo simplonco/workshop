@@ -10,7 +10,7 @@ GPIO.setup(TRIG,GPIO.OUT)
 GPIO.setup(ECHO,GPIO.IN)
 
 GPIO.output(TRIG, False)
-time.sleep(0.1)
+time.sleep(0.4)
 
 GPIO.output(TRIG, True)
 time.sleep(0.00001)

@@ -1,3 +1,3 @@
 #!/bin/sh
 
-sed -i '/ruby /root/Desktop/citrouille/citrouille.rb/d' /etc/rc.local 
+sed -i '/ruby \/root\/Desktop\/citrouille\/citrouille.rb/d' /etc/rc.local 

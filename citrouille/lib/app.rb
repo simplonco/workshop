@@ -1,7 +1,4 @@
-require './music'
-require './led'
-require './motor'
-require './ultrasonic'
+require './all'
 
 loop do
   distance = Ultrasonic.distance
