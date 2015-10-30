@@ -11,7 +11,7 @@ def distance_capteur_de_distance
   Ultrasonic.distance
 end
 
-def actioner_le_moteur
+def actionner_le_moteur
   Motor.start
 end
 
@@ -54,7 +54,7 @@ def boucle_infini
   end
 end
 
-def boucle
+def boucle(nombre)
   nombre.times do
     yield
   end

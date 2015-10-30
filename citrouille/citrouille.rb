@@ -1,6 +1,8 @@
 require './all'
 
 boucle_infini do
+  afficher distance_capteur_de_distance
+  
   if distance_capteur_de_distance < 120 
     
     jouer_musique('hallowen.mp3')

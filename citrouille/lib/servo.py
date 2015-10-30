@@ -1,5 +1,7 @@
 import RPi.GPIO as GPIO
 import time
+GPIO.setwarnings(False)
+
 PIN = 3
 
 GPIO.cleanup()
