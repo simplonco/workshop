@@ -1,0 +1,7 @@
+#!/bin/sh
+
+sed -i '/exit 0/d' /etc/rc.local 
+sed -i '/ruby /root/Desktop/citrouille/citrouille.rb/d' /etc/rc.local 
+             
+echo "ruby /root/Desktop/citrouille/citrouille.rb" >> /etc/rc.local
+echo "exit 0" >> /etc/rc.local
